@@ -101,7 +101,7 @@ export default function Questions(props) {
   };
 
   const backToMain = () => {
-    back.push("/");
+    back.push("/ReactQuizz");
   };
   return (
     <div className="questions">

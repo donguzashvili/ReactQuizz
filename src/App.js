@@ -34,7 +34,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Route exact path="/">
+        <Route exact path="/ReactQuizz">
           <MainComponent
             onClick={fetchData}
             length={setLength}
