@@ -39,6 +39,9 @@ form label p {
 }
 form label select {
   width: 100%;
+  height: 33px;
+  border-radius: 10px;
+  outline: none;
 }
 form button {
   display: flex;
