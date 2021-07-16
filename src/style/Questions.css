@@ -1,0 +1,78 @@
+.questions {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80vw;
+}
+.chosenOptions {
+  display: flex;
+  justify-content: space-around;
+}
+.questions h1 {
+  display: flex;
+  justify-content: center;
+}
+.questions p {
+  display: flex;
+  justify-content: center;
+}
+.question p {
+  margin: 20px 0;
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.answers {
+  display: flex;
+  justify-content: space-around;
+}
+.score {
+  display: flex;
+  justify-content: space-around;
+}
+.chosenOptions p {
+  text-align: center;
+  margin: 0;
+  display: block;
+  padding: 5px;
+}
+.chosenOptions div {
+  padding: 20px;
+}
+.answers button {
+  background: #305dc9;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  margin: 1em;
+  box-shadow: white 0 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.questions p {
+  display: flex;
+}
+.finished h3 {
+  display: flex;
+  justify-content: center;
+}
+.finished button {
+  background: #305dc9;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  margin: 1em;
+  box-shadow: white 0 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
